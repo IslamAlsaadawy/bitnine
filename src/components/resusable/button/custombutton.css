@@ -1,0 +1,23 @@
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+  }

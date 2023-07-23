@@ -1,0 +1,21 @@
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+   
+}
+
+.signup_title{
+    /* margin-left: 9rem; */
+    margin-top: 2rem;
+
+}
+
+.signup_button{
+    width: 20%;
+}
+
+hr{
+    color: black;
+    background-color: black;
+}
