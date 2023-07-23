@@ -1,0 +1,5 @@
+.aep_section{
+    display: flex;
+    place-items: center;
+    place-content: center;
+}

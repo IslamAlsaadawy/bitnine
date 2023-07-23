@@ -1,0 +1,18 @@
+.blueButton{
+    text-transform: uppercase;
+    padding: 0 1.25rem;
+    color: white;
+    background-color: #022EA9 !important;
+    border-radius: .225rem;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.8;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.blueButton:hover{
+    color: rgb(255, 222, 9);
+    text-decoration: none;
+}   
