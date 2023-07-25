@@ -1,3 +1,4 @@
+import BlueButton from '../../resusable/button/blueButtonLink';
 import './navbar.css'
 
 const Navbar = () => {
@@ -7,10 +8,9 @@ const Navbar = () => {
         <div className="navbar_container">
             <div className="navbar_left">
                 <div className="nav_logo">
-                    <img src="C:\Users\islam\Desktop\projects\bitnine\assets\b_logo.png" alt="" />
+                    <img className='nav_image' src="https://bitnine.net/wp-content/uploads/2021/02/b_logo.png" alt="" />
                 </div>
             </div>
-                <span>tst</span>
             <div className="navbar_right">
                     <ul className='nav_items'>
                         <li className="dropdown_parent">
@@ -40,6 +40,9 @@ const Navbar = () => {
                                     </ul>
                          </li>
                         <li className="nav_space" > <a href="">use cases</a> </li>
+                        <li> 
+                          <BlueButton text={"try free"}></BlueButton>
+                        </li>
                     </ul>
             </div>
         </div>

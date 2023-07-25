@@ -1,0 +1,22 @@
+.card_1{
+    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png");
+}
+
+.card_2{
+    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Data-Redaction.png");
+}
+.card_3{
+    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Auditing.png");
+}
+
+.dbengine_section{
+    display: flex;
+    place-content: center;
+    text-align: center;
+}
+
+.dbengine_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

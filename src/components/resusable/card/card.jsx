@@ -1,10 +1,11 @@
 import './card.css'
-const Card = ({ backgroundUrl   ,text1, text2, text3}) => {
-
+const Card = ({ classname   ,text1, text2, text3}) => {
+    
+    const cardname = `card_image ${classname}`
     return(
         <div className="card_container">
         {/* <div className="card_container"> */}
-            <div className="card_image" >
+            <div className={cardname} >
             <ul className="card_list">
             <li>{text1}</li>
             <li>{text2}</li>

@@ -1,18 +1,26 @@
 
     .card_container{
-        /* text-align: left; */
         display: inline-block;
         vertical-align: top;
         position: relative;
         word-wrap: normal;
         box-sizing: border-box;
-        border: 1px solid red;
-        height: 10rem;
+        height: 15rem;
         width: 20rem;
+        box-shadow: 1rem;
+
+        background-color: rgb(252, 252, 252); 
+        box-shadow: rgba(229, 229, 229, 0.992) 1px 1px 3.1415px 1.99168px; 
+        border-style: solid;
+         border-width: 1px; 
+         border-radius: 10px; border-color: 
+         rgb(209, 209, 209);
+          transition: all 700ms ease 0s; 
+          margin: 0px;
     }
 
 .card_image {
-    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png");
+    /* background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png"); */
     background-size: contain; /* updated */
     background-repeat: no-repeat;
     background-origin: content-box;
@@ -24,6 +32,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    padding: 10%;
     background-position: 50%;
     transition: all 0.5s ease-in-out;
 

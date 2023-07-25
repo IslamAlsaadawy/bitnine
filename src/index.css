@@ -18,17 +18,28 @@ body {
 }
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 
-p{
+p{  
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: #666666;
 }
 
 section{
-  margin-bottom: 5rem;
-  margin-top: 10rem;
+  margin-bottom: 3rem;
+  /* margin-top: 3 rem; */
+  background: #e9f0f4a3;
+
+  padding: 5rem;
+
+}
+
+section:nth-child(even){
+  background: #fff;
+
 }

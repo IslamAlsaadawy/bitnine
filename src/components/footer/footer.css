@@ -1,0 +1,14 @@
+.footer_items{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    place-content: center;
+}
+
+
+.footer_container{
+    margin-bottom: 4rem;
+}
+.footer_items h3 ,li{
+    margin-bottom:.8rem;
+}
