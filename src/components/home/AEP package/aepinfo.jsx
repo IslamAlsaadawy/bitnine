@@ -20,7 +20,7 @@ const AepInfo = () => {
             <h3> Agens HA Manager</h3>
             <h4> <span className="hac"> HA Clustering</span> – Failover/Failback, Load-balancing</h4>
             <img className="aepinfo_image" src="https://bitnine.net/wp-content/uploads/2022/04/img_AHM_eng-1024x922.png" alt="" />
-            <h4>Replication</h4>
+            <h4 className="mobile_aep">Replication</h4>
             </div>
         <div className="aepinfo_right"><h3>Agens Enterprise Manager</h3>
         <AemCard title={"Backup/Restore"} text1={"provides a convenient interface for backup & restore"}text2={"provides a convenient interface for backup & restore"} ></AemCard>

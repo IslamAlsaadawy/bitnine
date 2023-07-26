@@ -1,0 +1,79 @@
+/* 
+    .mobilenav_container{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    } */
+
+ .mobilenav_dropdown_parent:hover .mobilenav_sub_1{
+    display: block;
+ }
+ .mobilenav_dropdown_parent:hover .mobilenav_dropdown_parent_text {
+    color: rgb(188, 188, 99);
+ }
+ .mobilenav_dropdown_parent{
+    font-size: 1.75vh;
+ }
+
+
+.mobilenav_sub_1{
+    display: none;
+}
+
+.mobilenav_sub_1{
+    margin-top: 1rem;
+}
+.mobilenav_sub_1 li{
+    background-color: #202020;
+    padding: .75rem;
+    margin: 0 !important;
+    color: white;
+    font-size: 1.25vh;
+
+}
+.mobilenav_sub_1 li:hover{
+    background-color: rgba(0,0,0,0.6);
+  
+}
+.mobilenav_list_active{
+    display: block;
+}
+.mobilenav_list_active li{
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+}
+hr{
+    background-color: #ffff !important;
+}
+.mobilenav_list_not_active{
+    display: none;
+}
+
+.mobilenav_head{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    margin-bottom: 2.5vh;
+    
+}
+.mobilenav_logo{
+    width: 25%;
+    display: flex;
+
+    /* place-content: flex-start; */
+}
+.mobilenav_logo img{
+    width: 100%;
+    height: 100%;
+}
+.mobilenav_button{
+    width: 70%;
+    display: flex;
+    place-content: flex-end;
+}
+.mobilenav_container{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}

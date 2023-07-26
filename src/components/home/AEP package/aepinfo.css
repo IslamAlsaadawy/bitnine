@@ -3,9 +3,9 @@
     place-content: center;
     text-align: center;
 }
-.aepinfo_section h2, h3, h4{
+/* .aepinfo_section h2, h3, h4{
 margin-bottom: 1.3rem;
-}
+} */
 
 .aepinfo_middle{
     display: flex;
@@ -39,7 +39,7 @@ margin-bottom: 1.3rem;
         flex-direction: column;
         width: 100%;
         place-items: center;
-        gap: 7rem;
+        /* gap: 7rem; */
         
     }
 
@@ -56,4 +56,12 @@ margin-bottom: 1.3rem;
     .aepinfo_right{
         width: 100%;
       }
+      .aepinfo_left{
+        margin-bottom: 4rem;
+      }
+      .mobile_aep{
+        margin-bottom: 8vh;
+        display: block;
+      }
+   
 }
