@@ -3,3 +3,13 @@
     place-items: center;
     place-content: center;
 }
+
+@media screen and (max-width:1025px) {
+  
+    .aep_container{
+        width: 100%;
+    }
+    .aep_container img{
+        width: 100%;
+    }
+  }

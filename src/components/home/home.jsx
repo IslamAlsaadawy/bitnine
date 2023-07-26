@@ -7,6 +7,7 @@ import DbEngine from "./dbEngine/dbEngine"
 import KeyFeatures from "./keyFeatures/keyFeatures"
 import Navbar from "./navbar/navbar"
 import { useNavigate } from "react-router-dom"
+import MobileNav from "./navbar/mobileNav/mobileNav"
 
 const Home = () =>{
     const navigate = useNavigate()
@@ -19,7 +20,8 @@ const Home = () =>{
 
     return(
         <div>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
+        <MobileNav></MobileNav>
         <AgensSql></AgensSql>
         <Aep></Aep>
         <KeyFeatures></KeyFeatures>

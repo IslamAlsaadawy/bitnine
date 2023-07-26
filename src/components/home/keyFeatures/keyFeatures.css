@@ -19,3 +19,13 @@
 .keyfeatures_text{
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width:1025px) {
+  
+    .keyfeatures_container{
+        width: 100%;
+    }
+    .keyfeatures_container img{
+        width: 100%;
+    }
+  }

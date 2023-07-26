@@ -13,10 +13,10 @@ const Navbar = () => {
             </div>
             <div className="navbar_right">
                     <ul className='nav_items'>
-                        <li className="dropdown_parent">
-                            <a href="#" className="active">Products &nbsp; &#8595;</a>
+                        <li className="dropdown_parent dropdown_parent_product">
+                            <a href="#" className="active">Product</a>
                             <ul className="dropdown">
-                                <li className="sub_dropdown_parent">
+                                <li className="sub_dropdown_parent ">
                                     <a href="#">Graph Database &nbsp;  &#8594;</a>
                                     <ul className="sub_dropdown">
                                         <li><a href="">&nbsp;Agnes</a></li>
@@ -27,20 +27,36 @@ const Navbar = () => {
 
                                     </ul>
                                 </li>
+
+                                <li className="sub_dropdown_parent">
+                                    <a href="#">Graph Database &nbsp;  &#8594;</a>
+                                    <ul className="sub_dropdown">
+                                        <li><a href="">&nbsp;Agnes</a></li>
+                                        <li><a href="">&nbsp; Apache</a></li>
+                                        <li><a href="">&nbsp; Ag cloud</a></li>
+                                        <li><a href=""> &nbsp; Visualization</a></li>
+
+
+                                    </ul>
+                                </li>
+                                
                             </ul>
                         </li>
                         <li className="nav_space"> <a href="">use cases</a> </li>
                         <li className="nav_space" > <a href="">use cases</a> </li>
                         <li className="nav_space" > <a href="">SQL   cases</a> </li>
-                        <li className="nav_space dropdown_parent" > <a href="">Resources</a>
+                        <li className="nav_space dropdown_parent dropdown_parent_resources" > <a href="">Resources</a>
                         <ul className="dropdown">
                                 <li className="sub_dropdown_parent">
-                                    <a href="#">Graph Database &nbsp;  &#8594;</a>
+                                    <a href="#">Documentation</a>
+                                    </li>
+                                    <li className="sub_dropdown_parent">
+                                    <a href="#">Learn</a>
                                     </li>
                                     </ul>
                          </li>
                         <li className="nav_space" > <a href="">use cases</a> </li>
-                        <li> 
+                        <li className='BlueButton'> 
                           <BlueButton text={"try free"}></BlueButton>
                         </li>
                     </ul>

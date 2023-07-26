@@ -20,3 +20,10 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+
+@media screen and (max-width:1025px) {
+    .dbengine_cards{
+        flex-direction: column;
+    }
+}

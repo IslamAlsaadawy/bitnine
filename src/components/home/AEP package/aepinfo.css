@@ -32,3 +32,28 @@ margin-bottom: 1.3rem;
 .hac{
     color:rgb(0, 130, 203);
 }
+
+
+@media screen and (max-width:1025px) {
+    .aepinfo_middle{
+        flex-direction: column;
+        width: 100%;
+        place-items: center;
+        gap: 7rem;
+        
+    }
+
+    .aepinfo_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        gap: 2rem;
+    }
+    .aepinfo_section{
+        padding: 1rem;
+    }
+    .aepinfo_right{
+        width: 100%;
+      }
+}

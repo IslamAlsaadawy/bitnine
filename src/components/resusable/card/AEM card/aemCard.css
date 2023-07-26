@@ -174,3 +174,9 @@
     height: 70px;
   }
   
+  @media screen and (max-width: 1025px) {
+      .aemcard_container{
+        width: 100%;
+      }
+      
+  }
