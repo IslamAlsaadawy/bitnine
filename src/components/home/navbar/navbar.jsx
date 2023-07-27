@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <li className="sub_dropdown_parent ">
                                     <a href="#">Graph Database &nbsp;  &#8594;</a>
                                     <ul className="sub_dropdown">
-                                        <li><a >Agnes</a></li>
+                                        <li><a >Agens</a></li>
                                         <li><a >Apache</a></li>
                                         <li><a >Ag cloud</a></li>
                                         <li><a > Visualization</a></li>
@@ -34,12 +34,10 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="sub_dropdown_parent">
-                                    <a href="#">Graph Database &nbsp;  &#8594;</a>
+                                    <a href="#">Relational Database &#8594;</a>
                                     <ul className="sub_dropdown">
-                                        <li><a href="">&nbsp;Agnes</a></li>
-                                        <li><a href="">&nbsp; Apache</a></li>
-                                        <li><a href="">&nbsp; Ag cloud</a></li>
-                                        <li><a href=""> &nbsp; Visualization</a></li>
+                                        <li><a href="">AgensSQL</a></li>
+                             
 
 
                                     </ul>
@@ -72,7 +70,7 @@ const Navbar = () => {
                                     </ul>
                             
                          </li>          <li className='BlueButton'> 
-                          <BlueButton text={"Delete Data"} handleClick={deleteLocalStorage}></BlueButton>
+                          <BlueButton classname={"nav_delete"} text={"Delete Data"} handleClick={deleteLocalStorage}></BlueButton>
                           
                         </li>
                     </ul>

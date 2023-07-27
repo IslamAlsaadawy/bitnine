@@ -1,4 +1,4 @@
-.footer_items{
+.footer_items {
     display: flex;
     flex-direction: row;
     gap: 4rem;
@@ -6,15 +6,26 @@
 }
 
 
-.footer_container{
+.footer_container {
     margin-bottom: 4rem;
 }
-.footer_items h3 ,li{
-    margin-bottom:.8rem;
+
+.footer_items h3,
+li {
+    margin-bottom: .8rem;
+}
+
+.footer_container,
+.footer_container a {
+    color: #ababab;
+}
+
+.footer_container a:hover {
+    color: #2d6fad;
 }
 
 @media screen and (max-width: 1025px) {
-    .footer_container{
+    .footer_container {
         display: none;
     }
 }
