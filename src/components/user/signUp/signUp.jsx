@@ -17,6 +17,9 @@ const SignUp = () => {
     localStorage.setItem("name", name);
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
+    localStorage.setItem("isAuthenticated", "false");
+
+
 
     // Redirect user to sign-in page
     navigate("/signin");

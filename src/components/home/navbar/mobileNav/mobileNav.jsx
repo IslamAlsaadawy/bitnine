@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./mobileNav.css";
 import {FaBars} from 'react-icons/fa'
+import {IoIosArrowDown} from 'react-icons/io'
+import BlueButton from "../../../resusable/button/blueButtonLink";
 const MobileNav = () => {
   const [classNmae, setclassName] = useState("mobilenav_list_not_active");
   const toggle = () => {
@@ -9,7 +11,15 @@ const MobileNav = () => {
     } else {
       setclassName("mobilenav_list_not_active");
     }
+
+    
   };
+
+  const deleteLocalStorage = () => {
+    localStorage.clear();
+    window.location.reload();
+  }
+
   return (
     <div className="mobilenav_container">
         <div className="mobilenav_head">
@@ -24,27 +34,47 @@ const MobileNav = () => {
       <ul className={classNmae}>
         <hr></hr>
         <li className="mobilenav_dropdown_parent">
-          <a className="mobilenav_dropdown_parent_text">PRODUCTS</a>
+          <a className="mobilenav_dropdown_parent_text"><span className="text">PRODUCTS</span> <span className="icon"><IoIosArrowDown></IoIosArrowDown></span></a>
           <ul className="mobilenav_sub_1">
-            <li>
+            <li className="mobilenav_sub_1_text">
               <a>Graph Database</a>
+              <ul className="mobilenav_sub_2">
+            <li>
+              <a>Agens Graph</a>
             </li>
             <li>
+              <a>Apache AGE</a>
+            </li>
+            <li>
+              <a>AG Cloud</a>
+            </li>
+            <li>
+              <a>Visualization & Analytics</a>
+            </li>
+          </ul>
+            </li>
+            <li className="mobilenav_sub_1_text">
               <a>Relational Database</a>
+              <ul className="mobilenav_sub_2">
+            <li>
+              <a>AgensSQL</a>
+            </li>
+           
+          </ul>
             </li>
           </ul>
         </li>
 
         <hr></hr>
-        <li>Use Cases</li>
+        <li className="mobilenav_dropdown_parent"> <a className="mobilenav_dropdown_parent_text">USE CASES</a></li>
         <hr></hr>
 
-        <li>Services</li>
+        <li className="mobilenav_dropdown_parent"> <a className="mobilenav_dropdown_parent_text"> SERVICES</a></li>
         <hr></hr>
 
         <li className="mobilenav_dropdown_parent">
           {" "}
-          <a className="mobilenav_dropdown_parent_text">Resources</a>
+          <a className="mobilenav_dropdown_parent_text"><span className="text">RESOURCES</span> <span className="icon"><IoIosArrowDown></IoIosArrowDown></span></a>
           <ul className="mobilenav_sub_1">
             <li>
               <a> Documentation</a>
@@ -56,32 +86,35 @@ const MobileNav = () => {
         </li>
         <hr></hr>
 
-        <li>Blog</li>
+        <li className="mobilenav_dropdown_parent"> <a className="mobilenav_dropdown_parent_text">BLOG</a></li>
         <hr></hr>
         <li className="mobilenav_dropdown_parent">
-          <a className="mobilenav_dropdown_parent_text">Company</a>
+        <a className="mobilenav_dropdown_parent_text"><span className="text">COMPANY</span> <span className="icon"><IoIosArrowDown></IoIosArrowDown></span></a>
           <ul className="mobilenav_sub_1">
             <li>
-              <a> Documentation</a>
+              <a> About Us</a>
             </li>
             <li>
-              <a> Learn</a>
+              <a> Contact</a>
             </li>
           </ul>
         </li>
         <hr></hr>
         <li className="mobilenav_dropdown_parent">
-          <a className="mobilenav_dropdown_parent_text"> IR</a>
+        <a className="mobilenav_dropdown_parent_text"><span className="text">IR</span> <span className="icon"><IoIosArrowDown></IoIosArrowDown></span></a>
           <ul className="mobilenav_sub_1">
             <li>
-              <a> Documentation</a>
+              <a> Korean</a>
             </li>
             <li>
-              <a> Learn</a>
+              <a> Korean</a>
             </li>
           </ul>
         </li>
         <hr></hr>
+        <li><BlueButton classname={"mobilenav_button_delete"} text={"Delete Data"} handleClick={deleteLocalStorage}></BlueButton>
+</li>
+        
       </ul>
     </div>
   );

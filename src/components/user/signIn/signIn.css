@@ -8,6 +8,7 @@
 .signup_title{
     /* margin-left: 9rem; */
     margin-top: 2rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -18,4 +19,16 @@
 hr{
     color: black;
     background-color: black;
+}
+.error_message{
+    color: red;
+}
+
+.redirect_signup{
+    margin-top: 1rem;
+    width: 10rem;
+}
+.note{
+    margin-top: 2rem;
+    font-size: .80rem;
 }

@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom';
 import BlueButton from '../../resusable/button/blueButtonLink';
 import './navbar.css'
 
 const Navbar = () => {
+  const deleteLocalStorage = () => {
+    localStorage.clear();
+    window.location.reload();
+  }
 
 
     return(
@@ -14,15 +19,15 @@ const Navbar = () => {
             <div className="navbar_right">
                     <ul className='nav_items'>
                         <li className="dropdown_parent dropdown_parent_product">
-                            <a href="#" className="active">Product</a>
+                            <a href="#" className="active">PRODUCT</a>
                             <ul className="dropdown">
                                 <li className="sub_dropdown_parent ">
                                     <a href="#">Graph Database &nbsp;  &#8594;</a>
                                     <ul className="sub_dropdown">
-                                        <li><a href="">&nbsp;Agnes</a></li>
-                                        <li><a href="">&nbsp; Apache</a></li>
-                                        <li><a href="">&nbsp; Ag cloud</a></li>
-                                        <li><a href="">&nbsp; Visualization</a></li>
+                                        <li><a >Agnes</a></li>
+                                        <li><a >Apache</a></li>
+                                        <li><a >Ag cloud</a></li>
+                                        <li><a > Visualization</a></li>
 
 
                                     </ul>
@@ -42,10 +47,9 @@ const Navbar = () => {
                                 
                             </ul>
                         </li>
-                        <li className="nav_space"> <a href="">use cases</a> </li>
-                        <li className="nav_space" > <a href="">use cases</a> </li>
-                        <li className="nav_space" > <a href="">SQL   cases</a> </li>
-                        <li className="nav_space dropdown_parent dropdown_parent_resources" > <a href="">Resources</a>
+                        <li className="nav_space"> <a href="">USE CASES</a> </li>
+                        <li className="nav_space" > <a href="">SERVICES</a> </li>
+                        <li className="nav_space dropdown_parent dropdown_parent_resources" > <a href="">RESOURCES</a>
                         <ul className="dropdown">
                                 <li className="sub_dropdown_parent">
                                     <a href="#">Documentation</a>
@@ -55,9 +59,21 @@ const Navbar = () => {
                                     </li>
                                     </ul>
                          </li>
-                        <li className="nav_space" > <a href="">use cases</a> </li>
-                        <li className='BlueButton'> 
-                          <BlueButton text={"try free"}></BlueButton>
+                        <li className="nav_space" > <a href="">BLOG</a> </li>
+                       
+                        <li className="nav_space dropdown_parent dropdown_parent_resources" > <a href="">COMPANY</a>
+                        <ul className="dropdown">
+                                <li className="sub_dropdown_parent">
+                                    <a href="#">About Us</a>
+                                    </li>
+                                    <li className="sub_dropdown_parent">
+                                    <a href="#">Contact</a>
+                                    </li>
+                                    </ul>
+                            
+                         </li>          <li className='BlueButton'> 
+                          <BlueButton text={"Delete Data"} handleClick={deleteLocalStorage}></BlueButton>
+                          
                         </li>
                     </ul>
             </div>

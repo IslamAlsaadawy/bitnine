@@ -153,7 +153,7 @@ ul {
   position: absolute;
   top: 0%;
   left: 100%;
-  background-color: rgb(85, 84, 84);
+  background-color: #202020;
   display: none;
   padding: 0.6rem;
   transition-property: all;
@@ -161,7 +161,8 @@ ul {
 }
 
 .sub_dropdown_parent {
-  background-color: rgb(85, 84, 84);
+  background-color: #202020;
+
   padding: 0.6rem;
   margin-top: 2rem;
   display: none;
@@ -249,6 +250,10 @@ ul {
   color: white !important;
 }
 
+.dropdown_parent li:hover{
+  background-color: rgba(0,0,0,0.6);
+
+}
 
 @media screen and (max-width:1025px) {
   

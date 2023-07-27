@@ -1,8 +1,10 @@
 import './blueButtonLink.css'
-const BlueButton = ({ text, link }) => {
+const BlueButton = ({ text, link, componenet, classname, handleClick }) => {
+  const className = `blueButton ${classname || ''}`;
   return (
 
-    <a className='blueButton' href= {link}> {text}</a>
+    <a className={className} onClick={handleClick} href= {link}> {text} {componenet} </a>
+    
   )
   };
 

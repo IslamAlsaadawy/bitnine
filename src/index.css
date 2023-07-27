@@ -34,13 +34,14 @@ p{
 section{
   margin-bottom: 3rem;
   /* margin-top: 3 rem; */
-  background: #e9f0f4a3;
+  background: #fff;
+
 
   padding: 5rem;
 
 }
 
 section:nth-child(even){
-  background: #fff;
+  background: #e9f0f4a3;
 
 }
