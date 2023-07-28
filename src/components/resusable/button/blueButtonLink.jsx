@@ -1,11 +1,11 @@
-import './blueButtonLink.css'
+import "./blueButtonLink.css";
 const BlueButton = ({ text, link, componenet, classname, handleClick }) => {
-  const className = `blueButton ${classname || ''}`;
+  const className = `blueButton ${classname || ""}`;
   return (
-
-    <a className={className} onClick={handleClick} href= {link}> {text} {componenet} </a>
-    
-  )
-  };
+    <a className={className} onClick={handleClick} href={link}>
+      {text} {componenet}
+    </a>
+  );
+};
 
 export default BlueButton;

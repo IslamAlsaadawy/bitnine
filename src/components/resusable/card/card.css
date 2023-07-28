@@ -1,32 +1,30 @@
+.card_container {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    word-wrap: normal;
+    box-sizing: border-box;
+    height: 15rem;
+    width: 20rem;
+    box-shadow: 1rem;
 
-    .card_container{
-        display: inline-block;
-        vertical-align: top;
-        position: relative;
-        word-wrap: normal;
-        box-sizing: border-box;
-        height: 15rem;
-        width: 20rem;
-        box-shadow: 1rem;
-
-        background-color: rgb(252, 252, 252); 
-        box-shadow: rgba(229, 229, 229, 0.992) 1px 1px 3.1415px 1.99168px; 
-        border-style: solid;
-         border-width: 1px; 
-         border-radius: 10px; border-color: 
-         rgb(209, 209, 209);
-          transition: all 700ms ease 0s; 
-          margin: 0px;
-    }
+    background-color: rgb(252, 252, 252);
+    box-shadow: rgba(229, 229, 229, 0.992) 1px 1px 3.1415px 1.99168px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color:
+        rgb(209, 209, 209);
+    transition: all 700ms ease 0s;
+    margin: 0px;
+}
 
 .card_image {
-    /* background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png"); */
-    background-size: contain; /* updated */
+    background-size: contain;
     background-repeat: no-repeat;
     background-origin: content-box;
-    height: 90%; 
+    height: 90%;
     align-items: center;
-    /* padding: 2rem; */
     position: absolute;
     top: 1vh;
     left: 0;
@@ -36,8 +34,8 @@
     background-position: 50%;
     transition: all 0.5s ease-in-out;
 
-    
-  }
+
+}
 
 .card_list {
     position: absolute;
@@ -48,23 +46,21 @@
     opacity: 0;
     transform: scale(0.4) translateY(50%);
     transition: all 0.5s ease-in-out;
-    /* font-size: 1.5vh; */
     padding: 1rem;
 }
 
-.card_list li{
+.card_list li {
     list-style: disc;
     color: #51515186;
 }
 
-.card_container:hover .card_image{
+.card_container:hover .card_image {
     background-image: none;
     transition: all 0.5s ease-in-out;
 
 }
-.card_container:hover .card_list{
-    /* display: block; */
+
+.card_container:hover .card_list {
     opacity: 1;
     transform: scale(1) translateY(0);
 }
-

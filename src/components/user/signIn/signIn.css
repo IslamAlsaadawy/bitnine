@@ -1,34 +1,35 @@
-.signup_form{
+.signup_form {
     display: flex;
     flex-direction: column;
     place-items: center;
-   
+
 }
 
-.signup_title{
-    /* margin-left: 9rem; */
+.signup_title {
     margin-top: 2rem;
     margin-bottom: 5rem;
 
 }
 
-.signup_button{
+.signup_button {
     width: 20%;
 }
 
-hr{
+hr {
     color: black;
     background-color: black;
 }
-.error_message{
+
+.error_message {
     color: red;
 }
 
-.redirect_signup{
+.redirect_signup {
     margin-top: 1rem;
     width: 10rem;
 }
-.note{
+
+.note {
     margin-top: 2rem;
     font-size: .80rem;
 }

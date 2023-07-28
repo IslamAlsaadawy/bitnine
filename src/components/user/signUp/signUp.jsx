@@ -8,20 +8,16 @@ const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSignUp = (event) => {
     event.preventDefault();
 
-    // Save user data to local storage
     localStorage.setItem("name", name);
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
     localStorage.setItem("isAuthenticated", "false");
 
-
-
-    // Redirect user to sign-in page
     navigate("/signin");
   };
 

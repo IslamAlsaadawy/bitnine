@@ -2,7 +2,7 @@ import "./signIn.css";
 import FormInput from "../formInput/formInput";
 import { useEffect, useState } from "react";
 import CustomButton from "../../resusable/button/custombutton";
-import { useNavigate,Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 import BlueButton from "../../resusable/button/blueButtonLink";
 
@@ -50,10 +50,27 @@ const SignIn = () => {
           handleChange={(e) => setPassword(e.target.value)}
         />
         <CustomButton type="submit"> Sign In </CustomButton>
-        <BlueButton  classname = "redirect_signup" componenet={<Link to={"/signUp"} style={{color : "white", textTransform:"none", width:"100%", display:"block"}}> Sign Up</Link>}></BlueButton>
+        <BlueButton
+          classname="redirect_signup"
+          componenet={
+            <Link
+              to={"/signUp"}
+              style={{
+                color: "white",
+                textTransform: "none",
+                width: "100%",
+                display: "block",
+              }}
+            >
+              Sign Up
+            </Link>
+          }
+        ></BlueButton>
         {error && <p className="error_message">{error}</p>}
 
-        <p className="note">Note: if you clicked on delete data you need to sign up again</p>
+        <p className="note">
+          Note: if you clicked on delete data you need to sign up again
+        </p>
       </form>
     </div>
   );

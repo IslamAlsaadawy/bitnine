@@ -1,23 +1,22 @@
-.signup_form{
+.signup_form {
     display: flex;
     flex-direction: column;
     place-items: center;
-   
+
 }
 
-.signup_title{
-    /* margin-left: 9rem; */
+.signup_title {
     margin-top: 2rem;
     margin-bottom: 5rem;
 
 
 }
 
-.signup_button{
+.signup_button {
     width: 20%;
 }
 
-hr{
+hr {
     color: black;
     background-color: black;
 }

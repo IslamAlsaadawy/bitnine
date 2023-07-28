@@ -1,42 +1,9 @@
-/* li{
-  list-style: none;
-  padding-left: 0;
-}
 
-ul{
-  list-style: none;
-  padding-left: 0;
-}
 
-.dropdown_parent{
-  position: relative;
-  display: inline-block;
-  margin-right: 1rem;
-  cursor: pointer;
-  float: left;
-}
-
-.sub_dropdown{
-  float: right;
-  margin-left: 1rem;
-  background-color: rgb(46, 46, 46);
-  display: none;
-}
-
-.sub_dropdown_parent{
-  background-color: rgb(46, 46, 46);
-
-} */
-/* .nav_items{
-  display: flex;
-}
 li {
   list-style: none;
-  
 }
-.nav_space{
-  margin-right: 1rem;
-}
+
 
 ul {
   list-style: none;
@@ -47,106 +14,6 @@ ul {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  margin-right: -5rem;
-  float: left;
-}
-
-.sub_dropdown {
-  position: absolute;
-  top: 57%;
-  left: 100%;
-  background-color:rgb(85 84 84);
-  display: none;
-  padding: 0.6rem;
-}
-
-.sub_dropdown_parent {
-  background-color: rgb(85 84 84);
-  padding: 0.6rem;
-  margin-top: 2rem;
-  visibility: hidden;
-
-}
-
-.dropdown_parent:hover .sub_dropdown_parent {
-visibility: visible;
-
-} */
-
-/* .nav_items {
-  display: flex;
-}
-
-li {
-  list-style: none;
-}
-
-.nav_space {
-  margin-right: 1rem;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.dropdown_parent {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  margin-right: -5rem;
-  float: left;
-}
-
-.sub_dropdown {
-  position: absolute;
-  top: 57%;
-  left: 100%;
-  background-color: rgb(85, 84, 84);
-  display: none;
-  padding: 0.6rem;
-  transition-property: all;
-}
-
-.sub_dropdown_parent {
-  background-color: rgb(85, 84, 84);
-  padding: 0.6rem;
-  margin-top: 2rem;
-  display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.dropdown_parent:hover .sub_dropdown_parent {
-  display: block;
-  opacity: 1;
-}
-
-.sub_dropdown_parent:hover .sub_dropdown {
-  display: block;
-  opacity: 1;
-} */
-
-
-li {
-  list-style: none;
-}
-
-/* .nav_space {
-  display: inline-block;
-  margin-right: 1rem;
-} */
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.dropdown_parent {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  /* margin-right: -5rem; */
 }
 
 .sub_dropdown {
@@ -155,11 +22,11 @@ ul {
   left: 100%;
   background-color: #202020;
   display: none;
-  /* padding: 0.6rem; */
   transition-property: all;
   margin-right: 0;
 }
-.sub_dropdown li{
+
+.sub_dropdown li {
   padding: 0.6rem;
   margin-bottom: 0;
 }
@@ -170,7 +37,6 @@ ul {
   padding: 0.6rem;
   margin-top: 2rem;
   display: none;
-  /* visibility: hidden; */
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   margin-right: 0;
@@ -180,12 +46,12 @@ ul {
 
 
 .dropdown_parent:hover .sub_dropdown_parent {
-    display: block;
-    opacity: 1;
-    position: absolute;
-    left: 0;
-    width: 15rem;
-    top: 0;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  width: 15rem;
+  top: 0;
 }
 
 .sub_dropdown_parent:hover .sub_dropdown {
@@ -193,82 +59,86 @@ ul {
   opacity: 1;
 }
 
-.navbar_container{
+.navbar_container {
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
   margin-top: 2.5rem;
 }
-.navbar_left{
+
+.navbar_left {
   width: 15%;
 }
-.navbar_right{
+
+.navbar_right {
   width: 82%;
   position: relative;
 }
-.nav_image{
+
+.nav_image {
   width: 100%;
   height: 100%;
 }
-.nav_items{
+
+.nav_items {
   position: absolute;
-  /* left: 25rem; */
   top: 1.5rem;
   display: flex;
   gap: 1rem;
   width: 100%;
   justify-content: flex-end;
 }
-.navbar_container a:hover{
-  color:#fac433;
+
+.navbar_container a:hover {
+  color: #fac433;
 }
 
-.dropdown{
+.dropdown {
   width: 100%;
 }
-.dropdown a{
-  color:white !important;
+
+.dropdown a {
+  color: white !important;
 }
-.dropdown_parent a{
-  /* color:#666666f1 */
-}
+
+
 .sub_dropdown_parent:nth-child(2) {
   margin-top: 4rem;
 }
 
-.nav_items a{
-  color:#1f1f1fee
-
+.nav_items a {
+  color: #1f1f1fee
 }
 
 
 
-.dropdown_parent_product:hover > a{
-  color:#fac433;
+.dropdown_parent_product:hover>a {
+  color: #fac433;
 
 }
 
- .dropdown_parent_resources:hover > a{
-  color:#fac433;
+.dropdown_parent_resources:hover>a {
+  color: #fac433;
 
 }
 
-.BlueButton a{
+.BlueButton a {
   color: white !important;
 }
 
-.dropdown_parent li:hover{
-  background-color: rgba(0,0,0,0.6);
+.dropdown_parent li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 
 }
-.nav_delete{
+
+.nav_delete {
   position: relative;
   bottom: .5rem;
 }
 
 @media screen and (max-width:1025px) {
-  
-  .navbar_container{
+
+  .navbar_container {
     display: none;
   }
 }

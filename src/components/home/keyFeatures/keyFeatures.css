@@ -1,4 +1,4 @@
-.keyfeatures_section{
+.keyfeatures_section {
     display: flex;
     place-items: center;
     place-content: center;
@@ -8,7 +8,7 @@
     margin-bottom: 5rem;
 }
 
-.keyfeatures_container{
+.keyfeatures_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,16 +16,18 @@
     place-content: center;
     text-align: center;
 }
-.keyfeatures_text{
+
+.keyfeatures_text {
     margin-bottom: 2rem;
 }
 
 @media screen and (max-width:1025px) {
-  
-    .keyfeatures_container{
+
+    .keyfeatures_container {
         width: 100%;
     }
-    .keyfeatures_container img{
+
+    .keyfeatures_container img {
         width: 100%;
     }
-  }
+}

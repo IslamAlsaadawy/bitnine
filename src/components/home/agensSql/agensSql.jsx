@@ -5,7 +5,10 @@ const AgensSql = () => {
     <section className="agens_section">
       <div className="agens_container">
         <div className="agens_image">
-          <img src="https://bitnine.net/wp-content/uploads/2022/04/AgenSQL-Logo-300x61.png" alt="" />
+          <img
+            src="https://bitnine.net/wp-content/uploads/2022/04/AgenSQL-Logo-300x61.png"
+            alt=""
+          />
         </div>
         <div className="agens_text">
           <h3> An integration of Bitnine’s DB technology and PG expertise</h3>
@@ -20,10 +23,9 @@ const AgensSql = () => {
             management.
           </p>
           <p>
-            {" "}
             Get AgensSQL now for stable operation and management services at a
             reduced maintenance cost.
-           </p>
+          </p>
         </div>
         <div className="agens_links">
           <BlueButton text={"contact"}></BlueButton>

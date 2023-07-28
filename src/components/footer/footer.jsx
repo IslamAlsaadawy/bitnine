@@ -28,11 +28,11 @@ const Footer = () => {
           <h3>RESOURCES</h3>
           <ul className="footer_sub_items">
             <li>
-              {" "}
+              
               <a href="">Documentation</a>
             </li>
             <li>
-              {" "}
+              
               <a href="">Learn</a>
             </li>
           </ul>
