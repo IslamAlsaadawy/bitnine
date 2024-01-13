@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import BlueButton from "../../resusable/button/blueButtonLink";
+import logo from "../../../assets/b_logo.png"
 import "./navbar.css";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className="nav_logo">
           <img
             className="nav_image"
-            src="https://bitnine.net/wp-content/uploads/2021/02/b_logo.png"
+            src = {logo}
             alt=""
           />
         </div>

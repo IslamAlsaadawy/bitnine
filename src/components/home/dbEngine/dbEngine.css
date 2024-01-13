@@ -1,13 +1,13 @@
 .card_1 {
-    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png");
+    background-image: url("../../../assets/Password-Profile.png");
 }
 
 .card_2 {
-    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Data-Redaction.png");
+    background-image: url("../../../assets/Data-Redaction.png");
 }
 
 .card_3 {
-    background-image: url("https://bitnine.net/wp-content/uploads/2022/04/Auditing.png");
+    background-image: url("../../../assets/Auditing.png");
 }
 
 .dbengine_section {

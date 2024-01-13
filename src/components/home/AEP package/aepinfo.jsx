@@ -1,5 +1,6 @@
 import AemCard from "../../resusable/card/AEM card/aemCard";
 import "./aepinfo.css";
+import info1 from "../../../assets/info1.png";
 
 const AepInfo = () => {
   return (
@@ -24,7 +25,7 @@ const AepInfo = () => {
             </h4>
             <img
               className="aepinfo_image"
-              src="https://bitnine.net/wp-content/uploads/2022/04/img_AHM_eng-1024x922.png"
+              src={info1}
               alt=""
             />
             <h4 className="mobile_aep">Replication</h4>

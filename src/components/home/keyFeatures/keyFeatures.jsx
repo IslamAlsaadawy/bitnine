@@ -1,4 +1,5 @@
 import "./keyFeatures.css";
+import keyfeaturesImg from "../../../assets/img_key-features_eng-1024x402.png";
 
 const KeyFeatures = () => {
   return (
@@ -15,7 +16,7 @@ const KeyFeatures = () => {
         </div>
         <div className="keyfeatures_image">
           <img
-            src="https://bitnine.net/wp-content/uploads/2022/04/img_key-features_eng-1024x402.png"
+            src={keyfeaturesImg}
             alt=""
           />
         </div>

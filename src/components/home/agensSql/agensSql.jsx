@@ -1,12 +1,13 @@
 import BlueButton from "../../resusable/button/blueButtonLink";
 import "./agensSql.css";
+import agenssqllogo from "../../../assets/AgenSQL-Logo-300x61.png";
 const AgensSql = () => {
   return (
     <section className="agens_section">
       <div className="agens_container">
         <div className="agens_image">
           <img
-            src="https://bitnine.net/wp-content/uploads/2022/04/AgenSQL-Logo-300x61.png"
+            src={agenssqllogo}
             alt=""
           />
         </div>
